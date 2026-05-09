@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Password Strength Analyzer</h2>
+
+    <input type="password" id="password" placeholder="Enter password">
+    
+    <div class="bar">
+        <div id="strength"></div>
+    </div>
+
+    <p id="result"></p>
+    <ul id="feedback"></ul>
+
+    <button onclick="generatePassword()">Generate Strong Password</button>
+    <p id="suggestion"></p>
+
+    <button onclick="savePassword()">Save Password</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
